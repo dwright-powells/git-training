@@ -21,9 +21,10 @@ Intro training for git. We'll talk a little bit about the background of git and 
 
 `git add <file name here>` - adds specific files to the next commit.
 
+`git commit` - this will open up vim, or another text editor, to add your message to the commit.
+
 `git commit -m` - creates a new commit and adds a message. 
 
-`git commit --interactive` - this will open up vim, or another text editor, to add your message to the commit 
 
 ## Pushing
 `git push origin <branch name>` - push your changes up to the branch. Will create the branch on the git server if it isn't already there.
