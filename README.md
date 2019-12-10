@@ -30,6 +30,10 @@ Intro training for git
 
 `git push origin head` - This will do the same as above, but it will not work if you don't set your remote HEAD (current branch pointer). Output to with instructions will come up if you try to push  and haven't set it. 
 
+## Pulling 
+
+`git pull <remote name> <branch>` - this does a git fetch(downloads most recent changes to a branch) and merges the changes with into local branch.
+`git fetch <remote name> <branch>` - will download the most recent changes, but will not merge them into your local branch. 
 
 ## Git Log 
 
