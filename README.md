@@ -12,7 +12,7 @@ Intro training for git
 `git branch -av` - this will do the same as above, but also show the last commit message  
 
 
-## Commiting
+## Committing
 `git status` - will show you changed files in red that are not added and those that are added to the next commit.
 
 `git add .` - adds all changed files in your current location in the directory to the commit, this includes subfolders. 
@@ -35,10 +35,31 @@ Intro training for git
 `git pull <remote name> <branch>` - this does a git fetch(downloads most recent changes to a branch) and merges the changes with into local branch.
 `git fetch <remote name> <branch>` - will download the most recent changes, but will not merge them into your local branch. 
 
-## Git Log 
+## Reverting
+
+`git revert <commit hash>` 
+
+## Log
 
 `git log --decorate` - a colorized output of the git commit history 
 
 `git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative` - super fancy output that will show a graphed output 
 
 `git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"` - save the above out put to an alias of `git lg` 
+
+`git log --graph --oneline` - simpler version of the output above
+
+`git blame -w <file name>` - this will do a git blame and ignore whitespace changes. I use this most of the time 
+
+
+## Additional References 
+
+* [The git website](https://git-scm.com/)
+* [Atlassian's Git tutorial](https://www.atlassian.com/git/tutorials)
+* [Git Tower's Git tutorial](https://www.git-tower.com/learn/git/ebook/en/command-line/introduction#start)
+
+## Gui Based Git Tools
+
+* [GitHub's Desktop program](https://desktop.github.com/)
+* [Source Tree](https://www.sourcetreeapp.com/) - Atlassian's git tool
+* [Git Kraken](https://www.gitkraken.com/) - has a free tier
