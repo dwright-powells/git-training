@@ -1,0 +1,4 @@
+# Put what files you'd like to ignore in here
+
+# you can put stuff like *.txt to ignore all files that use .txt
+# It's common for folks to put testing files or local configuration files into gitignore.
