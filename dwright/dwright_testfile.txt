@@ -1,2 +1,3 @@
-This is my testfile.
-POTaTo
+I'm putting some stuff in here to create a merge conflict. Update master without changing this to see sparks fly.
+
+This also shows a branch :D
