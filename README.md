@@ -28,7 +28,7 @@ Intro training for git. We'll talk a little bit about the background of git and 
 ## Pushing
 `git push origin <branch name>` - push your changes up to the branch. Will create the branch on the git server if it isn't already there.
 
-`git push origin head` - This will do the same as above, but it will not work if you don't set your remote HEAD (current branch pointer). Output to with instructions will come up if you try to push  and haven't set it. 
+`git push` - This will do the same as above, but it will not work if you don't set your remote HEAD (current branch pointer). Output to with instructions will come up if you try to push  and haven't set it. 
 
 ## Pulling 
 
