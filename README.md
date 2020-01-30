@@ -1,4 +1,5 @@
 # Git Training
+:warning: This repo is public :warning:
 Intro training for git. We'll talk a little bit about the background of git and then take a look at some of the basic ways we interact with git. This includes going over a very basic workflow for working collaboratively with folks.
 
 
